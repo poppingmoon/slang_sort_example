@@ -51,6 +51,13 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^3.0.2
 
+dependency_overrides:
+  slang:
+    git:
+      url: https://github.com/poppingmoon/slang
+      ref: 0a7d041dab66e22b7349ef4a89e3156cbf203910
+      path: slang
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
